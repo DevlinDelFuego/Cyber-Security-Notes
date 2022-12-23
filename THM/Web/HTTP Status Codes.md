@@ -1,3 +1,5 @@
+# HTTP Status Codes
+
 In the previous task, you learnt that when a HTTP server responds, the first line always contains a status code informing the client of the outcome of their request and also potentially how to handle it. These status codes can be broken down into 5 different ranges:
 |Code|Description|
 |------------ | ------------|

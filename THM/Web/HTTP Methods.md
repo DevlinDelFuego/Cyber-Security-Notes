@@ -1,3 +1,5 @@
+# HTTP Methods
+
 HTTP methods are a way for the client to show their intended action when making an HTTP request. There are a lot of HTTP methods but we'll cover the most common ones, although mostly you'll deal with the GET and POST method.
 
 ## GET Request

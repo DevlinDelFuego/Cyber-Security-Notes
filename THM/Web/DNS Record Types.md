@@ -1,3 +1,5 @@
+# DNS Record Types
+
 DNS isn't just for websites though, and multiple types of DNS record exist. We'll go over some of the most common ones that you're likely to come across.
 
 ## A Record

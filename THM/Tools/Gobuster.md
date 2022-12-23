@@ -1,3 +1,5 @@
+# Gobuster
+
 Type the following command into the terminal to find potentially hidden pages on FakeBank's website using GoBuster (a command-line security application).  
 
 GoBuster command to brute-force website pages

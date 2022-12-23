@@ -1,3 +1,5 @@
+# Common Directories
+
 #### /etc
 
 This root directory is one of the most important root directories on your system. The etc folder (short for etcetera) is a commonplace location to store system files that are used by your operating system. 
