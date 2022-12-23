@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc2ca13fd37e1db6",
+            "id": "07272b51961e0cab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Tools/Gobuster.md",
+                "file": "THM/Web/HTTP Status Codes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Tools/Gobuster.md",
+                "file": "THM/Web/HTTP Status Codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Tools/Gobuster.md",
+                "file": "THM/Web/HTTP Status Codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Tools/Gobuster.md"
+                "file": "THM/Web/HTTP Status Codes.md"
               }
             }
           },
@@ -158,15 +158,15 @@
   },
   "active": "9cd74c1e2cad4219",
   "lastOpenFiles": [
+    "THM/Windows Commands/Common Windows Commands.md",
+    "THM/Web/HTTP Status Codes.md",
+    "THM/Web/HTTP Methods.md",
+    "THM/Web/DNS Record Types.md",
+    "THM/Linux/Common Linux Commands.md",
+    "THM/Linux/Common Directories.md",
+    "THM/Tools/Gobuster.md",
     "Reference/Active-Directory/SMB Relaying.md",
     "Reference/Active-Directory/Active Directory.md",
-    "THM/Tools/Gobuster.md",
-    "Tools.md",
-    "Reference/cloud/aws.md",
-    "Reference/bin-ex/cheatsheet.md",
-    "Reference/bin-ex/bin-exp-windows.md",
-    "Reference/protobuf.md",
-    "Reference/Untitled.canvas",
-    "Reference/web-application-firewall.md"
+    "Tools.md"
   ]
 }

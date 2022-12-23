@@ -17,6 +17,7 @@ Gobuster v2.0.1
 2022/04/11 18:23:38 Finished 
 =====================================================
 ```
+
 In the command above, `-u` is used to state the website we're scanning, `-w` takes a list of words to iterate through to find hidden pages.
 
 #Tools
