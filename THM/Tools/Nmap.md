@@ -43,21 +43,33 @@ Types of scans
 
 These scan types should get you started discovering running TCP and UDP services on a target host.
 
-| Option                  | Purpose                                  |
-| ----------------------- | ---------------------------------------- |
-| `-p-`                   | all ports                                |
-| `-p1-1023`              | scan ports 1 to 1023                     |
-| `-F`                    | 100 most common ports                    |
-| `-r`                    | scan ports in consecutive order          |
-| `-T<0-5>`               | -T0 being the slowest and T5 the fastest |
-| `--max-rate 50`         | rate <= 50 packets/sec                   |
-| `--min-rate 15`         | rate >= 15 packets/sec                   |
-| `--min-parallelism 100` | at least 100 probes in parallel          |
-| `--reason`              | explains how Nmap made its conclusion    |
-| `-v`                    | verbose                                  |
-| `-vv`                   | very verbose                             |
-| `-d`                    | debugging                                |
-| `-dd`                   | more details for debugging               | 
+| Option                      | Purpose                                         |
+| --------------------------- | ----------------------------------------------- |
+| `-p-`                       | all ports                                       |
+| `-p1-1023`                  | scan ports 1 to 1023                            |
+| `-F`                        | 100 most common ports                           |
+| `-r`                        | scan ports in consecutive order                 |
+| `-T<0-5>`                   | -T0 being the slowest and T5 the fastest        |
+| `--max-rate 50`             | rate <= 50 packets/sec                          |
+| `--min-rate 15`             | rate >= 15 packets/sec                          |
+| `--min-parallelism 100`     | at least 100 probes in parallel                 |
+| `--reason`                  | explains how Nmap made its conclusion           |
+| `-v`                        | verbose                                         |
+| `-vv`                       | very verbose                                    |
+| `-d`                        | debugging                                       |
+| `-dd`                       | more details for debugging                      |
+| `-sV`                       | determine service/version info on open ports    |
+| `-sV --version-light`       | try the most likely probes (2)                  |
+| `-sV --version-all`         | try all available probes (9)                    |
+| `-O`                        | detect OS                                       |
+| `--traceroute`              | run traceroute to target                        |
+| `--script=SCRIPTS`          | Nmap scripts to run                             |
+| `-sC` or `--script=default` | run default scripts                             |
+| `-A`                        | equivalent to `-sV -O -sC --traceroute`         |
+| `-oN`                       | save output in normal format                    |
+| `-oG`                       | save output in grepable format                  |
+| `-oX`                       | save output in XML format                       |
+| `-oA`                       | save output in normal, XML and Grepable formats | 
 
 
 
