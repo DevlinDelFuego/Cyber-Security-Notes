@@ -13,14 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/protobuf.md",
+                "file": "Reference/cloud/aws.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc2ca13fd37e1db6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reference/protobuf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reference/protobuf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +132,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Reference/protobuf.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "9cd74c1e2cad4219",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7750da5fb6c7380",
+  "active": "b98968471be1671c",
   "lastOpenFiles": [
+    "Reference/cloud/aws.md",
+    "Reference/bin-ex/cheatsheet.md",
+    "Reference/bin-ex/bin-exp-windows.md",
+    "Reference/protobuf.md",
     "Reference/Untitled.canvas",
     "Reference/web-application-firewall.md",
     "Reference/known-exploits.md",
     "Reference/cross-site-request-forgery.md",
-    "Reference/bin-ex/cheatsheet.md",
     "Reference/bin-ex/Binary Exploitation - Basics.md",
-    "Reference/auth/SAML.md",
-    "Reference/auth/Password Reset.md",
-    "Reference/auth/OAuth hacking.md",
-    "Reference/auth/JSON Web Tokens.md"
+    "Reference/auth/SAML.md"
   ]
 }

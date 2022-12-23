@@ -1,8 +1,5 @@
 # Amazon Web Services (AWS)
-Tags:
-Related to:
-See also:
-Previous:
+Tags: Related to: See also: Previous:
 
 ## Links
 Link: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
