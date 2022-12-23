@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7591c7b64653f87f",
+        "id": "88fef66bcfdd1fc5",
         "type": "tabs",
         "children": [
           {
-            "id": "07272b51961e0cab",
+            "id": "3f9503edc125cbee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "THM/Web/Authentication Bypass.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "THM/Web/Authentication Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "THM/Web/Authentication Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "THM/Web/Authentication Bypass.md"
               }
             }
           },
@@ -135,6 +135,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e9b665154a66934",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -153,20 +161,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "07272b51961e0cab",
+  "active": "3f9503edc125cbee",
   "lastOpenFiles": [
+    "THM/Web/Authentication Bypass.md",
+    "THM/Web/OSINT.md",
+    "THM/Web/DNS Record Types.md",
+    "THM/Tools/Gobuster.md",
+    "README.md",
     "THM/Windows Commands/Common Windows Commands.md",
     "THM/Linux/Common Linux Commands.md",
     "THM/Linux/Common Directories.md",
-    "THM/Tools/Gobuster.md",
-    "THM/Web/DNS Record Types.md",
     "THM/Web/HTTP Methods.md",
-    "THM/Web/HTTP Status Codes.md",
-    "Reference/Active-Directory/SMB Relaying.md",
-    "Reference/Active-Directory/Active Directory.md",
-    "Tools.md"
+    "THM/Web/HTTP Status Codes.md"
   ]
 }

@@ -1,4 +1,10 @@
 [
   "copy-publish-url",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "calendar",
+  "dataview",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-kanban"
 ]
