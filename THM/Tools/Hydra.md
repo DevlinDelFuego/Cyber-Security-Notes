@@ -8,3 +8,6 @@
 | `-s PORT`         | Set the server address and service to attack                  |
 | `-V` or `-vV`     | Show the username and password combinations being tried       |
 | `-d`              | Display debugging output if the verbose output is not helping | 
+
+
+#tools #hydra
