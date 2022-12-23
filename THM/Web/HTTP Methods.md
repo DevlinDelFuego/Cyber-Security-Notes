@@ -17,3 +17,5 @@ This is used for submitting data to a web server to update information
 ## DELETE Request
 
 This is used for deleting information/records from a web server.
+
+#web

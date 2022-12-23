@@ -21,3 +21,6 @@ These records resolve to the address of the servers that handle the email for th
 ## TXT Record
 
 TXT records are free text fields where any text-based data can be stored. TXT records have multiple uses, but some common ones can be to list servers that have the authority to send an email on behalf of the domain (this can help in the battle against spam and spoofed email). They can also be used to verify ownership of the domain name when signing up for third party services.
+
+
+#web

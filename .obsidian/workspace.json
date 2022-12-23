@@ -19,6 +19,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f3b2ed340f61854",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/Web/IDOR.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3df3f17414f178f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/Web/OSINT.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -145,6 +171,22 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "9e8513b0fa22f484",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1e3ee28412aef07",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -166,17 +208,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "3f9503edc125cbee",
+  "active": "9cd74c1e2cad4219",
   "lastOpenFiles": [
-    "THM/Web/Authentication Bypass.md",
+    "THM/Web/IDOR.md",
     "THM/Web/OSINT.md",
-    "THM/Web/DNS Record Types.md",
-    "THM/Tools/Gobuster.md",
-    "README.md",
-    "THM/Windows Commands/Common Windows Commands.md",
-    "THM/Linux/Common Linux Commands.md",
-    "THM/Linux/Common Directories.md",
+    "THM/Web/SQL Injection.md",
+    "THM/Web/File Inclusion.md",
+    "THM/Web/HTTP Status Codes.md",
     "THM/Web/HTTP Methods.md",
-    "THM/Web/HTTP Status Codes.md"
+    "THM/Web/DNS Record Types.md",
+    "THM/Web/Authentication Bypass.md",
+    "THM/Tools/Gobuster.md",
+    "README.md"
   ]
 }

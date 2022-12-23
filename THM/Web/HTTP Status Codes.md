@@ -25,3 +25,6 @@ There are a lot of different HTTP status codes and that's not including the fact
 |404 - Page Not Found|The page/resource you requested does not exist.|
 |500 - Internal Service Error| The server has encountered some kind of error with your request that it doesn't know how to handle properly.|
 |503 - Service Unavailable| This server cannot handle your request as it's either overloaded or down for maintenance.|
+
+
+#web
