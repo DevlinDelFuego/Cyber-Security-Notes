@@ -35,5 +35,15 @@
 |>|This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere|
 |>>|This operator does the same function of the `>` operator but appends the output rather than replacing (meaning nothing is overwritten)|
 
+Find Linux OS
+
+`cat /etc/os-release`
+`lsb_release -a`
+`hostnamect`
+
+Type the following command to find Linux kernel version:
+`uname -r`
+
+
 
 #commands
