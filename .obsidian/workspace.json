@@ -225,14 +225,14 @@
   "active": "9cd74c1e2cad4219",
   "lastOpenFiles": [
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
-    "THM/Linux/Common Directories.md",
-    "THM/Linux/Common Linux Commands.md",
+    "THM/Tools/Vulnerability Databases.md",
     "THM/Tools/Metasploit.md",
+    "THM/Linux/Common Linux Commands.md",
+    "THM/Linux/Common Directories.md",
     "THM/Tools/Nmap.md",
     "().md",
     "THM/Cheat Sheets/Metasploit Cheat Sheet.md",
     "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
-    "THM/Cheat Sheets/Netcat Cheat Sheet.md",
-    "THM/Tools/Hydra.md"
+    "THM/Cheat Sheets/Netcat Cheat Sheet.md"
   ]
 }
