@@ -4,76 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ce2a9657f55b0c01",
+        "id": "d4302d3f487ab597",
         "type": "tabs",
         "children": [
           {
-            "id": "96568a0a5753e568",
+            "id": "acb741eed4f63a46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ae7e8f49855eded",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Cheat Sheets/Metasploit Cheat Sheet.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a2a1960ee893fe9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Tools/Metasploit.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b606fd4fdc8a98c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13f232fc1a01e977",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
+                "file": "THM/Web/Upload Vulnerabilities.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
+                "file": "THM/Web/Upload Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
+                "file": "THM/Web/Upload Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md"
+                "file": "THM/Web/Upload Vulnerabilities.md"
               }
             }
           },
@@ -235,12 +182,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "9cd74c1e2cad4219",
+  "active": "acb741eed4f63a46",
   "lastOpenFiles": [
+    "THM/Tools/Vulnerability Databases.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Linux/Common Linux Commands.md",
-    "THM/Tools/Vulnerability Databases.md",
     "THM/Tools/Metasploit.md",
     "THM/Linux/Common Directories.md",
     "THM/Tools/Nmap.md",

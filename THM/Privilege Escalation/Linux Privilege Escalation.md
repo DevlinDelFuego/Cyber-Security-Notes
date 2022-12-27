@@ -322,4 +322,4 @@ fix ./code: /lib/x86_64-linux-gnu/libc.so.6: version GLIBC_2.34 not found (requi
 sudo gcc -static code.c -o code -w
 ```
 
-
+#linux #priv

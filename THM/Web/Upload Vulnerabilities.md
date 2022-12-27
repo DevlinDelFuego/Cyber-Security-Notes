@@ -46,7 +46,7 @@ Similarly, different frameworks and languages come with their own inherent metho
 
 ## Bypassing Client-Side Filtering
 
-We'll begin with the first (and weakest) line of defence: Client-Side Filtering.  
+We'll begin with the first (and weakest) line of defense: Client-Side Filtering.  
 
 As mentioned previously, client-side filtering tends to be extremely easy to bypass, as it occurs entirely on a machine that _you_ control. When you have access to the code, it's very easy to alter it.
 
