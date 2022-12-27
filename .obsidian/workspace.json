@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13f232fc1a01e977",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -203,7 +216,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -222,17 +235,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "b606fd4fdc8a98c7",
+  "active": "9cd74c1e2cad4219",
   "lastOpenFiles": [
-    "THM/Linux/Common Linux Commands.md",
+    "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
+    "THM/Linux/Common Linux Commands.md",
     "THM/Tools/Vulnerability Databases.md",
     "THM/Tools/Metasploit.md",
     "THM/Linux/Common Directories.md",
     "THM/Tools/Nmap.md",
     "().md",
     "THM/Cheat Sheets/Metasploit Cheat Sheet.md",
-    "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
-    "THM/Cheat Sheets/Netcat Cheat Sheet.md"
+    "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md"
   ]
 }

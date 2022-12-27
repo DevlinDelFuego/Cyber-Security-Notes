@@ -94,11 +94,7 @@ Looking at earlier commands with the `history` command can give us some idea a
 
 The target system may be a pivoting point to another network. The `ifconfig` command will give us information about the network interfaces of the system. The example below shows the target system has three interfaces (eth0, tun0, and tun1). Our attacking machine can reach the eth0 interface but can not directly access the two other networks.
 
-![](https://i.imgur.com/hcdZnwK.png)
-
 This can be confirmed using the `ip route` command to see which network routes exist.
-
-![](https://i.imgur.com/PSrmz5O.png)
 
 ### netstat
 
@@ -107,13 +103,7 @@ Following an initial check for existing interfaces and network routes, it is wor
 -   `netstat -a`: shows all listening ports and established connections.
 -   `netstat -at` or `netstat -au` can also be used to list TCP or UDP protocols respectively.
 -   `netstat -l`: list ports in “listening” mode. These ports are open and ready to accept incoming connections. This can be used with the “t” option to list only ports that are listening using the TCP protocol (below)
-
-![](https://i.imgur.com/BbLdyrr.png)
-
 -   `netstat -s`: list network usage statistics by protocol (below) This can also be used with the `-t` or `-u` options to limit the output to a specific protocol.
-
-![](https://i.imgur.com/mc8OWP0.png)
-
 -   `netstat -tp`: list connections with the service name and PID information.
 
 ![](https://i.imgur.com/fDYQwbW.png)
