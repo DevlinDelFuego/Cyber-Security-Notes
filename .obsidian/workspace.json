@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Linux/Common Linux Commands.md",
+                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/Common Linux Commands.md",
+                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/Common Linux Commands.md",
+                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/Common Linux Commands.md"
+                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md"
               }
             }
           },
@@ -195,7 +195,7 @@
             }
           },
           {
-            "id": "f1e3ee28412aef07",
+            "id": "c8213151ef40374f",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -224,10 +224,10 @@
   },
   "active": "b606fd4fdc8a98c7",
   "lastOpenFiles": [
+    "THM/Linux/Common Linux Commands.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Tools/Vulnerability Databases.md",
     "THM/Tools/Metasploit.md",
-    "THM/Linux/Common Linux Commands.md",
     "THM/Linux/Common Directories.md",
     "THM/Tools/Nmap.md",
     "().md",
