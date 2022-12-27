@@ -58,9 +58,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d08698e458653a7b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -222,7 +232,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "9cd74c1e2cad4219",
+  "active": "d08698e458653a7b",
   "lastOpenFiles": [
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Tools/Vulnerability Databases.md",
