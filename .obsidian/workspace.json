@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Web/Upload Vulnerabilities.md",
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Web/Upload Vulnerabilities.md",
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Web/Upload Vulnerabilities.md",
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Web/Upload Vulnerabilities.md"
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md"
               }
             }
           },
@@ -184,15 +184,15 @@
   },
   "active": "acb741eed4f63a46",
   "lastOpenFiles": [
+    "THM/Web/Upload Vulnerabilities.md",
+    "THM/Web/File Inclusion.md",
+    "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
+    "THM/Cheat Sheets/Metasploit Cheat Sheet.md",
+    "THM/Cheat Sheets/Netcat Cheat Sheet.md",
     "THM/Tools/Vulnerability Databases.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Linux/Common Linux Commands.md",
-    "THM/Tools/Metasploit.md",
-    "THM/Linux/Common Directories.md",
-    "THM/Tools/Nmap.md",
-    "().md",
-    "THM/Cheat Sheets/Metasploit Cheat Sheet.md",
-    "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md"
+    "THM/Tools/Metasploit.md"
   ]
 }
