@@ -1,25 +1,34 @@
 # Gobuster
 
-Type the following command into the terminal to find potentially hidden pages on FakeBank's website using GoBuster (a command-line security application).  
+Download GoBuster [here](https://github.com/OJ/gobuster), or if you're on Kali Linux 2020.1+ run sudo apt-get install gobuster
 
-GoBuster command to brute-force website pages
-```bash
-ubuntu@tryhackme:~/Desktop$ gobuster -u http://fakebank.com -w wordlist.txt dir  ===================================================== 
-Gobuster v2.0.1 
-=====================================================
-[+] Mode         : dir 
-[+] Url/Domain   : http://fakebank.com/ 
-[+] Threads      : 10 
-[+] Wordlist     : wordlist.txt 
-[+] Status codes : 200,204,301,302,307,403 
-[+] Timeout      : 10s 
-===================================================== 
-2022/04/11 18:23:28 Starting gobuster ===================================================== 
-/images (Status: 301) /DIRECTORY_NAME_OUTPUT (Status: 200) ===================================================== 
-2022/04/11 18:23:38 Finished 
-=====================================================
+To get started, you will need a wordlist for GoBuster (which will be used to quickly go through the wordlist to identify if there is a public directory available. If you are using [Kali Linux](https://tryhackme.com/room/kali) you can find many wordlists under `/usr/share/wordlists`.
+
+```shell
+gobuster dir -u http://<ip>:3333 -w <word list location>
 ```
 
-In the command above, `-u` is used to state the website we're scanning, `-w` takes a list of words to iterate through to find hidden pages.
+| GoBuster            | Description                               |
+| ------------------- | ----------------------------------------- |
+| `-e`                | Print the full URLs in your console       |
+| `-u`                | The target URL                            |
+| `-w`                | Path to your wordlist                     |
+| `-U and -P`         | Username and Password for Basic Auth      |
+| `-p <x>`            | Proxy to use for requests                 |
+| `-c <http cookies>` | Specify a cookie for simulating your auth |
+
+```shell
+gobuster dir -u http://10.10.10.10 -q -w /usr/share/wordlists/dirb/big.txt -t 250 -x txt,php,html,cgl,js,py,sh,css
+
+```
+
+
+
+
+
+
+
+
+
 
 #tools
