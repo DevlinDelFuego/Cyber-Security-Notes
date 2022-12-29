@@ -182,13 +182,13 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6e7213ff15ce0c45",
+  "active": "7b40b7271ed8281f",
   "lastOpenFiles": [
+    "THM/Privilege Escalation/Samba Privilege Escalation.md",
+    "THM/Privilege Escalation/Proftpd.md",
+    "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Tools/Hydra.md",
     "THM/Tools/Nishang.md",
-    "THM/Privilege Escalation/Windows Privilege Escalation.md",
-    "THM/Privilege Escalation/Proftpd.md",
-    "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Linux/Common Linux Commands.md",
     "THM/Tools/Gobuster.md",
