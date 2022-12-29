@@ -342,7 +342,7 @@ Invoke-WebRequest -Uri 'https://download.sysinternals.com/files/Handle.zip' -Out
 
 run exe
 ```powershell
-
+powershell -c .\shell.exe
 
 ```
 
