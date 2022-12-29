@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "acb741eed4f63a46",
+            "id": "7b40b7271ed8281f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86e3fcb325f31485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ca03ab981c553e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "THM/Tools/Hydra.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "THM/Tools/Hydra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
+                "file": "THM/Tools/Hydra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md"
+                "file": "THM/Tools/Hydra.md"
               }
             }
           },
@@ -211,15 +184,15 @@
   },
   "active": "9cd74c1e2cad4219",
   "lastOpenFiles": [
+    "THM/Tools/Nishang.md",
+    "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Proftpd.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
-    "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Linux/Common Linux Commands.md",
     "THM/Tools/Gobuster.md",
     "THM/Tools/Nmap.md",
     "THM/Tools/Port Scanners.md",
-    "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
-    "THM/Linux/Common Directories.md"
+    "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md"
   ]
 }
