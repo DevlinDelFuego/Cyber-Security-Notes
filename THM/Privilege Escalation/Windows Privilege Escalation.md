@@ -328,5 +328,15 @@ If you already have a Meterpreter shell on the target system, you can use the `m
 -   [Token Kidnapping](https://dl.packetstormsecurity.net/papers/presentations/TokenKidnapping.pdf)
 -   [Hacktricks - Windows Local Privilege Escalation](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation)
 
+## Transfer Shell
+
+```shell
+
+```
+
+
+
+
+
 
 #win #priv
