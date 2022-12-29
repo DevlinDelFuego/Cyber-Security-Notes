@@ -330,8 +330,8 @@ If you already have a Meterpreter shell on the target system, you can use the `m
 
 ## Transfer Shell
 
-```shell
-
+```powershell
+Invoke-WebRequest -Uri 'https://download.sysinternals.com/files/Handle.zip' -OutFile C:\handle.zi Expand-Archive -Path C:\handle.zip
 ```
 
 
