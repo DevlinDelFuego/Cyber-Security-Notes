@@ -6,19 +6,15 @@
 
 If we run **ss -tulpn** it will tell us what socket connections are running
 
-| Argument | Description         |
-| -------- | ------------------- |
-| -t       | Display TCP sockets |
-| -u       | Display UDP sockets | 
+| Argument | Description                        |
+| -------- | ---------------------------------- |
+| -t       | Display TCP sockets                |
+| -u       | Display UDP sockets                |
+| -l       | Displays only listening sockets    |
+| -p       | Shows the process using the socket |
+| -n       | Doesn't resolve service names      | 
 
--l
+From our local machine, run **ssh -L 10000:localhost:10000 <username>@<ip>
 
-Displays only listening sockets
+Once complete, in your browser type "localhost:10000" and you can access the newly-exposed webserver.
 
--p
-
-Shows the process using the socket
-
--n
-
-Doesn't resolve service names
