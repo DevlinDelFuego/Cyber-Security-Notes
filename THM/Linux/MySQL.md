@@ -22,40 +22,48 @@ GRANT ALL PRIVILEGES ON * . * TO 'someuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-## Show Grants
-
+Show Grants
+```shell
 SHOW GRANTS FOR 'someuser'@'localhost';
+```
 
-## Remove Grants
-
+Remove Grants
+```shell
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'someuser'@'localhost';
+```
 
-## Delete User
-
+Delete User
+```shell
 DROP USER 'someuser'@'localhost';
+```
 
-## Exit
-
+Exit
+```shell
 exit;
+```
 
-## Show Databases
-
+Show Databases
+```shell
 SHOW DATABASES
+```
 
-## Create Database
-
+Create Database
+```shell
 CREATE DATABASE acme;
+```
 
-## Delete Database
-
+Delete Database
+```shell
 DROP DATABASE acme;
+```
 
-## Select Database
-
+Select Database
+```shell
 USE acme;
+```
 
-## Create Table
-
+Create Table
+```shell
 CREATE TABLE users(
 id INT AUTO_INCREMENT,
    first_name VARCHAR(100),
@@ -68,27 +76,33 @@ id INT AUTO_INCREMENT,
    register_date DATETIME,
    PRIMARY KEY(id)
 );
+```
 
-## Delete / Drop Table
-
+Delete / Drop Table
+```shell
 DROP TABLE tablename;
+```
 
-## Show Tables
-
+Show Tables
+```shell
 SHOW TABLES;
+```
 
-## Insert Row / Record
-
+Insert Row / Record
+```shell
 INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Brad', 'Traversy', 'brad@gmail.com', '123456','Massachusetts', 'development', 1, now());
+```
 
-## Insert Multiple Rows
-
+Insert Multiple Rows
+```shell
 INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Sara', 'Watson', 'sara@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Jackson', 'will@yahoo.com', '123456', 'Rhode Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
+```
 
-## Select
-
+Select
+```shell
 SELECT * FROM users;
 SELECT first_name, last_name FROM users;
+```
 
 ## Where Clause
 
@@ -130,7 +144,6 @@ SELECT DISTINCT location FROM users;
 
 SELECT * FROM users WHERE age BETWEEN 20 AND 25;
 
-
 ## Like (Searching)
 
 SELECT * FROM users WHERE dept LIKE 'd%';
@@ -138,26 +151,18 @@ SELECT * FROM users WHERE dept LIKE 'dev%';
 SELECT * FROM users WHERE dept LIKE '%t';
 SELECT * FROM users WHERE dept LIKE '%e%';
 
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#not-like)
-
 ## Not Like
 
 SELECT * FROM users WHERE dept NOT LIKE 'd%';
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#in)
 
 ## IN
 
 SELECT * FROM users WHERE dept IN ('design', 'sales');
 
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#create--remove-index)
-
 ## Create & Remove Index
 
 CREATE INDEX LIndex On users(location);
 DROP INDEX LIndex ON users;
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#new-table-with-foreign-key-posts)
 
 ## New Table With Foreign Key (Posts)
 
@@ -171,13 +176,9 @@ id INT AUTO_INCREMENT,
    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#add-data-to-posts-table)
-
 ## Add Data to Posts Table
 
 INSERT INTO posts(user_id, title, body) VALUES (1, 'Post One', 'This is post one'),(3, 'Post Two', 'This is post two'),(1, 'Post Three', 'This is post three'),(2, 'Post Four', 'This is post four'),(5, 'Post Five', 'This is post five'),(4, 'Post Six', 'This is post six'),(2, 'Post Seven', 'This is post seven'),(1, 'Post Eight', 'This is post eight'),(3, 'Post Nine', 'This is post none'),(4, 'Post Ten', 'This is post ten');
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#inner-join)
 
 ## INNER JOIN
 
@@ -190,8 +191,6 @@ FROM users
 INNER JOIN posts
 ON users.id = posts.user_id
 ORDER BY posts.title;
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#new-table-with-2-foriegn-keys)
 
 ## New Table With 2 Foriegn Keys
 
@@ -206,13 +205,9 @@ CREATE TABLE comments(
     FOREIGN KEY(post_id) references posts(id)
 );
 
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#add-data-to-comments-table)
-
 ## Add Data to Comments Table
 
 INSERT INTO comments(post_id, user_id, body) VALUES (1, 3, 'This is comment one'),(2, 1, 'This is comment two'),(5, 3, 'This is comment three'),(2, 4, 'This is comment four'),(1, 2, 'This is comment five'),(3, 1, 'This is comment six'),(3, 2, 'This is comment six'),(5, 4, 'This is comment seven'),(2, 3, 'This is comment seven');
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#left-join)
 
 ## Left Join
 
@@ -222,8 +217,6 @@ posts.title
 FROM comments
 LEFT JOIN posts ON posts.id = comments.post_id
 ORDER BY posts.title;
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#join-multiple-tables)
 
 ## Join Multiple Tables
 
@@ -237,8 +230,6 @@ INNER JOIN posts on posts.id = comments.post_id
 INNER JOIN users on users.id = comments.user_id
 ORDER BY posts.title;
 
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#aggregate-functions)
-
 ## Aggregate Functions
 
 SELECT COUNT(id) FROM users;
@@ -246,8 +237,6 @@ SELECT MAX(age) FROM users;
 SELECT MIN(age) FROM users;
 SELECT SUM(age) FROM users;
 SELECT UCASE(first_name), LCASE(last_name) FROM users;
-
-## [](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3#group-by)
 
 ## Group By
 
