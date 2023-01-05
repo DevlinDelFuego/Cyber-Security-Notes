@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "69cbb33502441020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/Linux/HTTP Server.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -139,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/Encryption.md",
+                "file": "THM/Linux/HTTP Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/Encryption.md",
+                "file": "THM/Linux/HTTP Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/Encryption.md"
+                "file": "THM/Linux/HTTP Server.md"
               }
             }
           },
@@ -235,8 +248,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e9b3a0d614bd6de8",
+  "active": "69cbb33502441020",
   "lastOpenFiles": [
+    "THM/Linux/Encryption.md",
     "THM/Linux/FTP.md",
     "THM/Linux/NFS.md",
     "THM/Linux/MySQL.md",
@@ -245,7 +259,6 @@
     "THM/Tools/Metasploit.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
-    "THM/Privilege Escalation/Proftpd.md",
-    "THM/Tools/Hydra.md"
+    "THM/Privilege Escalation/Proftpd.md"
   ]
 }
