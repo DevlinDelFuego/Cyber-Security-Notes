@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e9b3a0d614bd6de8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/Linux/Encryption.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/FTP.md",
+                "file": "THM/Linux/Encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/FTP.md",
+                "file": "THM/Linux/Encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/FTP.md"
+                "file": "THM/Linux/Encryption.md"
               }
             }
           },
@@ -222,11 +235,11 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "0bf6cbdeeb3f1c0a",
+  "active": "e9b3a0d614bd6de8",
   "lastOpenFiles": [
+    "THM/Linux/FTP.md",
     "THM/Linux/NFS.md",
     "THM/Linux/MySQL.md",
-    "THM/Linux/FTP.md",
     "THM/Linux/Common Linux Commands.md",
     "THM/Linux/Common Directories.md",
     "THM/Tools/Metasploit.md",
