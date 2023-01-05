@@ -15,7 +15,7 @@ Unmounting NFS
 ```shell
 sudo umount [~/Downloads/mount]
 ```
+ boom
 
 
-
-#NFS
+#NFS #connect 

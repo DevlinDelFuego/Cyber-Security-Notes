@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Linux/NFS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Linux/NFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Linux/NFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/MySQL.md"
+                "file": "THM/Linux/NFS.md"
               }
             }
           },
@@ -224,6 +224,7 @@
   },
   "active": "0bf6cbdeeb3f1c0a",
   "lastOpenFiles": [
+    "THM/Linux/MySQL.md",
     "THM/Linux/FTP.md",
     "THM/Linux/NFS.md",
     "THM/Linux/Common Linux Commands.md",
@@ -232,7 +233,6 @@
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Privilege Escalation/Proftpd.md",
-    "THM/Tools/Hydra.md",
-    "THM/Tools/Nishang.md"
+    "THM/Tools/Hydra.md"
   ]
 }
