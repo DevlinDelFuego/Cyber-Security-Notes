@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Linux/HTTP Server.md",
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/HTTP Server.md",
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/HTTP Server.md",
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/HTTP Server.md"
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md"
               }
             }
           },
@@ -250,6 +250,8 @@
   },
   "active": "69cbb33502441020",
   "lastOpenFiles": [
+    "THM/Privilege Escalation/Linux Privilege Escalation.md",
+    "THM/Linux/HTTP Server.md",
     "THM/Linux/Encryption.md",
     "THM/Linux/FTP.md",
     "THM/Linux/NFS.md",
@@ -257,8 +259,6 @@
     "THM/Linux/Common Linux Commands.md",
     "THM/Linux/Common Directories.md",
     "THM/Tools/Metasploit.md",
-    "THM/Privilege Escalation/Windows Privilege Escalation.md",
-    "THM/Privilege Escalation/Samba Privilege Escalation.md",
-    "THM/Privilege Escalation/Proftpd.md"
+    "THM/Privilege Escalation/Windows Privilege Escalation.md"
   ]
 }
