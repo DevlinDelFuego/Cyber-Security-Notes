@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Tools/Metasploit.md",
+                "file": "THM/Linux/Common Linux Commands.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Tools/Metasploit.md",
+                "file": "THM/Linux/Common Linux Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Tools/Metasploit.md",
+                "file": "THM/Linux/Common Linux Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Tools/Metasploit.md"
+                "file": "THM/Linux/Common Linux Commands.md"
               }
             }
           },
@@ -184,6 +184,8 @@
   },
   "active": "7b40b7271ed8281f",
   "lastOpenFiles": [
+    "THM/Linux/Common Directories.md",
+    "THM/Tools/Metasploit.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Privilege Escalation/Proftpd.md",
@@ -191,8 +193,6 @@
     "THM/Tools/Nishang.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Linux/Common Linux Commands.md",
-    "THM/Tools/Gobuster.md",
-    "THM/Tools/Nmap.md",
-    "THM/Tools/Port Scanners.md"
+    "THM/Tools/Gobuster.md"
   ]
 }
