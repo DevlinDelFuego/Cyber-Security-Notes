@@ -195,7 +195,7 @@
             }
           },
           {
-            "id": "6e7213ff15ce0c45",
+            "id": "222b0d6cc608353a",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -222,7 +222,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "0bf6cbdeeb3f1c0a",
+  "active": "222b0d6cc608353a",
   "lastOpenFiles": [
     "THM/Linux/NFS.md",
     "THM/Linux/MySQL.md",
