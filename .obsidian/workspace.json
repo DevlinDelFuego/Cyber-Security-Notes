@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/Reverse SSH Tunnels.md",
+                "file": "THM/Linux/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/Reverse SSH Tunnels.md",
+                "file": "THM/Linux/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/Reverse SSH Tunnels.md"
+                "file": "THM/Linux/MySQL.md"
               }
             }
           },
