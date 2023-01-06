@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/MySQL.md"
+                "file": "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md"
               }
             }
           },
@@ -196,17 +196,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6dff28d9a8c77ee0",
+  "active": "b98968471be1671c",
   "lastOpenFiles": [
+    "THM/Web/File Inclusion.md",
+    "THM/Linux/MySQL.md",
     "THM/Tools/Hydra.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Linux/Reverse SSH Tunnels.md",
-    "THM/Linux/MySQL.md",
     "THM/Web/Authentication Bypass.md",
     "THM/Tools/Metasploit.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
-    "THM/Linux/HTTP Server.md",
-    "THM/Linux/Encryption.md"
+    "THM/Linux/HTTP Server.md"
   ]
 }
