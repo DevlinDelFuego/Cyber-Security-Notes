@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Tools/Hydra.md",
+                "file": "THM/Linux/MySQL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Tools/Hydra.md",
+                "file": "THM/Linux/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Tools/Hydra.md",
+                "file": "THM/Linux/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Tools/Hydra.md"
+                "file": "THM/Linux/MySQL.md"
               }
             }
           },
@@ -198,6 +198,7 @@
   },
   "active": "6dff28d9a8c77ee0",
   "lastOpenFiles": [
+    "THM/Tools/Hydra.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Linux/Reverse SSH Tunnels.md",
     "THM/Linux/MySQL.md",
@@ -206,7 +207,6 @@
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Linux/HTTP Server.md",
-    "THM/Linux/Encryption.md",
-    "THM/Linux/FTP.md"
+    "THM/Linux/Encryption.md"
   ]
 }
