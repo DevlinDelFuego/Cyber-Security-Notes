@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
+                "file": "THM/Linux/Reverse SSH Tunnels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
+                "file": "THM/Linux/Reverse SSH Tunnels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md"
+                "file": "THM/Linux/Reverse SSH Tunnels.md"
               }
             }
           },
@@ -195,8 +196,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "69cbb33502441020",
+  "active": "6dff28d9a8c77ee0",
   "lastOpenFiles": [
+    "THM/Privilege Escalation/Samba Privilege Escalation.md",
     "THM/Linux/MySQL.md",
     "THM/Web/Authentication Bypass.md",
     "THM/Tools/Metasploit.md",
@@ -205,7 +207,6 @@
     "THM/Linux/HTTP Server.md",
     "THM/Linux/Encryption.md",
     "THM/Linux/FTP.md",
-    "THM/Linux/NFS.md",
-    "THM/Linux/Common Linux Commands.md"
+    "THM/Linux/NFS.md"
   ]
 }

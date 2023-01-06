@@ -18,3 +18,4 @@ From our local machine, run **ssh -L 10000:localhost:10000 <username>@<ip>
 
 Once complete, in your browser type "localhost:10000" and you can access the newly-exposed webserver.
 
+Set lhost as localhost IP
