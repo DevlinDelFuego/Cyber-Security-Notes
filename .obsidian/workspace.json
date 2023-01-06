@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/MySQL.md",
+                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/MySQL.md"
+                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md"
               }
             }
           },
@@ -196,7 +195,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "222b0d6cc608353a",
+  "active": "69cbb33502441020",
   "lastOpenFiles": [
     "THM/Linux/MySQL.md",
     "THM/Web/Authentication Bypass.md",
