@@ -24,3 +24,8 @@ In our case, port 111 is access to a network file system. Lets use nmap to enume
 nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount 10.10.10.10
 ```
 
+# SMB Enumerate 
+
+```shell
+smbmap -H 10.10.131.230 
+```
