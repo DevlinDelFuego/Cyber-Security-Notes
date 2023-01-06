@@ -3,7 +3,7 @@
 Nmap has the ability to run to automate a wide variety of networking tasks. There is a script to enumerate shares!
 
 ```shell
-nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 10.10.10.10
+nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>
 ```
 
 On most distributions of Linux smbclient is already installed. Lets inspect one of the shares.
@@ -21,11 +21,12 @@ smbget -R smb://<ip>/anonymous
 In our case, port 111 is access to a network file system. Lets use nmap to enumerate this.
 
 ```shell
-nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount 10.10.10.10
+nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount <ip>
 ```
 
 # SMB Enumerate 
 
 ```shell
-smbmap -H 10.10.131.230 
+smbmap -H <ip> 
 ```
+
