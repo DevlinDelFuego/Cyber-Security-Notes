@@ -39,9 +39,16 @@ smbclient [-?EgqBNPkV] [-?|--help] [--usage]
 [-U|--user=[DOMAIN/]USERNAME[%PASSWORD]] 
 [-N|--no-pass]
 [--password=STRING] 
-[--pw-nt-hash] [-A|--authentication-file=FILE] [-P|--machine-pass]
-        [--simple-bind-dn=DN] [--use-kerberos=desired|required|off] [--use-krb5-ccache=CCACHE]
-        [--use-winbind-ccache] [--client-protection=sign|encrypt|off] [-k|--kerberos] [-V|--version]
-        [OPTIONS] service <password>
+[--pw-nt-hash] 
+[-A|--authentication-file=FILE] 
+[-P|--machine-pass]
+[--simple-bind-dn=DN] 
+[--use-kerberos=desired|required|off] 
+[--use-krb5-ccache=CCACHE]
+[--use-winbind-ccache] 
+[--client-protection=sign|encrypt|off] 
+[-k|--kerberos] 
+[-V|--version]
+[OPTIONS] service <password>
 
 ```
