@@ -10,6 +10,10 @@ Connect
 smbclient //<ip>/<share name>
 ```
 
+```shell
+smbclient -L \\\\<ip>\\
+```
+
 ```
 Usage: 
 smbclient [-?EgqBNPkV] [-?|--help] [--usage] 
