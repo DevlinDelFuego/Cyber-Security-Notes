@@ -72,7 +72,10 @@ These scan types should get you started discovering running TCP and UDP services
 | `-oA`                       | save output in normal, XML and Grepable formats | 
 
 
-
+Create a output file
+```shell
+nmap -sV -sC -oA scan/initial <ip>
+```
 
 
 
