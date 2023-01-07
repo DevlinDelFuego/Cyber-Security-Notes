@@ -14,6 +14,10 @@ smbclient //<ip>/<share name>
 smbclient -L \\\\<ip>\\
 ```
 
+```shell
+smbclient \\\\<ip>\\<share>
+```
+
 ```
 Usage: 
 smbclient [-?EgqBNPkV] [-?|--help] [--usage] 
