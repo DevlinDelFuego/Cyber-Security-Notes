@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0c405a706ef8bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "THM/Linux/SMB.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/Linux/NFS.md",
+                "file": "THM/Linux/SMB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/Linux/NFS.md",
+                "file": "THM/Linux/SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/Linux/NFS.md"
+                "file": "THM/Linux/SMB.md"
               }
             }
           },
@@ -196,8 +209,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6dff28d9a8c77ee0",
+  "active": "f0c405a706ef8bf2",
   "lastOpenFiles": [
+    "THM/Linux/NFS.md",
     "THM/Cheat Sheets/Reverse Shell Cheat Sheet.md",
     "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
@@ -206,7 +220,6 @@
     "THM/Web/File Inclusion.md",
     "THM/Linux/MySQL.md",
     "THM/Tools/Hydra.md",
-    "THM/Privilege Escalation/Samba Privilege Escalation.md",
-    "THM/Linux/Reverse SSH Tunnels.md"
+    "THM/Privilege Escalation/Samba Privilege Escalation.md"
   ]
 }
