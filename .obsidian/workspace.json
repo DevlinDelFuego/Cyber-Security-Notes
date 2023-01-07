@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "THM/CMS/WordPress.md",
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "THM/CMS/WordPress.md",
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "THM/CMS/WordPress.md",
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM/CMS/WordPress.md"
+                "file": "THM/Privilege Escalation/Windows Privilege Escalation.md"
               }
             }
           },
@@ -224,8 +224,8 @@
   },
   "active": "7f86afd9d7335b3f",
   "lastOpenFiles": [
-    "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/CMS/WordPress.md",
+    "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Tools/Hydra.md",
     "THM/Tools/Nmap.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
