@@ -216,7 +216,8 @@ Below are simple steps using both vectors.
   
 reading the `/etc/shadow` file  
   
-We see that the nano text editor has the SUID bit set by running the `find / -type f -perm -04000 -ls 2>/dev/null` command.  
+We see that the nano text editor has the SUID bit set by running the `find / -type f -perm -04000 -ls 2>/dev/null` command. 
+`find / -perm +6000 2>/dev/null | grep '/bin/'`
   
 `nano /etc/shadow` will print the contents of the `/etc/shadow` file. We can now use the unshadow tool to create a file crackable by John the Ripper. To achieve this, unshadow needs both the `/etc/shadow` and `/etc/passwd` files.
 
