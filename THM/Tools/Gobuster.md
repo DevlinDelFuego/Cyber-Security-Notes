@@ -22,7 +22,9 @@ gobuster dir -u http://10.10.10.10 -q -w /usr/share/wordlists/dirb/big.txt -t 25
 
 ```
 
-
+```shell
+gobuster dir -u http://10.10.85.55:49663  -q -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 250 
+```
 
 
 
