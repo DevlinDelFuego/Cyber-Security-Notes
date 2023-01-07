@@ -362,8 +362,9 @@ echo "" > --checkpoint=1
 
 # Printspoofer
 
+Vulnerability in Windows where certain service accounts are required to run with elevated privileges utilizing the SeImpersonate privilege. We see that we are the `iis apppool\defaultapppool` service account user, which should allow us to elevate using the Printspoofer exploit.
 ```powershell
-
+PrinterSpoofer.exe -i -c cmd
 ```
 
 
