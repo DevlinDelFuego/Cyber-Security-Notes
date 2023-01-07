@@ -360,5 +360,12 @@ echo "" > --checkpoint=1
 "/bin/bash -p" -grab root
 ```
 
+# PrintSpoof
+
+```powershell
+
+```
+
+
 
 #win #priv
