@@ -15,8 +15,7 @@ Wireshark only has a few that you will need to be familiar with:
 
 ## Basic Filtering
 
-https://wiki.wireshark.org/DisplayFilters
-[](https://wiki.wireshark.org/DisplayFilters)
+[Wireshark Filtering Documentation](https://www.wireshark.org/docs/wsug_html_chunked/ChWorkBuildDisplayFilterSection.html)
 
 Filtering by IP: The first filter we will look at is ip.addr, this filter will allow you to comb through the traffic and only see packets with a specific IP address contained in those packets, whether it be from the source or destination.
 
@@ -33,3 +32,5 @@ It is worthwhile to mention that Wireshark can filter by both port numbers as we
 Filtering by UDP Protocols: You can also filter by UDP ports by changing the prefix from tcp to udp
 
 ``Syntax: `udp.port eq <Port #> or <Protocol Name>``
+
+
