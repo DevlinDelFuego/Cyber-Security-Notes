@@ -4,63 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4302d3f487ab597",
+        "id": "8e0d76564e86c280",
         "type": "tabs",
         "children": [
           {
-            "id": "69cbb33502441020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Privilege Escalation/Samba Privilege Escalation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dff28d9a8c77ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Linux/NFS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0c405a706ef8bf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Privilege Escalation/Linux Privilege Escalation.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f86afd9d7335b3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "THM/Tools/Nmap.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f2d280a32cff930",
+            "id": "97659476e4093972",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -72,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "263bd84a893d605e",
@@ -235,15 +183,18 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "7f2d280a32cff930",
+  "active": "97659476e4093972",
   "lastOpenFiles": [
-    "THM/Tools/Gobuster.md",
-    "THM/Tools/Wireshark.md",
-    "THM/Tools/Vulnerability Databases.md",
+    "README.md",
+    "THM/Privilege Escalation/Samba Privilege Escalation.md",
+    "THM/Linux/NFS.md",
+    "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Tools/Nmap.md",
+    "THM/Tools/Wireshark.md",
+    "THM/Tools/Gobuster.md",
+    "THM/Tools/Vulnerability Databases.md",
     "THM/Privilege Escalation/Windows Privilege Escalation.md",
     "THM/CMS/WordPress.md",
-    "THM/Privilege Escalation/Linux Privilege Escalation.md",
     "THM/Tools/Hydra.md",
     "THM/Linux/Common Linux Commands.md",
     "THM/Linux/SMB.md"
