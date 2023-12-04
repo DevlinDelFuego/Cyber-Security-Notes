@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "32d62247115dfeae",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,6 +74,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "eda455524d7bc260",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -183,7 +202,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "97659476e4093972",
+  "active": "32d62247115dfeae",
   "lastOpenFiles": [
     "README.md",
     "THM/Privilege Escalation/Samba Privilege Escalation.md",
